@@ -1,0 +1,15 @@
+useEffect(() => {
+  const getResponse = async () => {
+    try {
+      const response = await fetchAiResponse(
+        "im testing my api call, respond with only one word - working or not working",
+        deepseekAPIkey
+      );
+      setTest(response);
+    } catch (error) {
+      console.error(error);
+      setTest("Error");
+    }
+  };
+  getResponse();
+}, [deepseekAPIkey]);
