@@ -20,7 +20,7 @@ This app acts as your **AI-powered API assistant**:
 3. **Human-Readable Data + Raw Code** 
    - Receive API responses in **clean, formatted views** alongside **AI insights** (e.g., "This array contains 23 user objects with `id`, `email`, and `roles`").
    - Not only that, you still recieve the raw data that is retrived as welL!
-4. **One-Click Exploration** ⚡  
+4. **One-Click Exploration** 
    - Modify data safely: test `GET`/`POST`/`PUT`/`DELETE` without writing code or worrying about syntax errors and even view your API search history for reference!
 
 ### Why Use This Tool?
