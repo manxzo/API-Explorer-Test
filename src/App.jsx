@@ -6,9 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import DeepSeekAPIForm from "./components/DeepSeekAPIKey/DeepSeekAPIForm";
 import APIExplorer from "./components/APIExplorer/APIEXplorer";
-import APIForm from "./components/APIExplorer/Components/APIForm";
-import APIRawResults from "./components/APIExplorer/Components/APIRawResults";
-import APIAIResults from "./components/APIExplorer/Components/APIAIResults";
+
 
 function App() {
   const [deepseekAPIkey, setDeepseekAPIkey] = useState("");
